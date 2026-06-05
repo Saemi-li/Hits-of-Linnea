@@ -20,7 +20,14 @@ body {
   color: #f4471f;
   text-decoration: none;
 }
-
+.discoball {
+  width: 200px;
+  height: 200px;
+  animation: spin 6s linear infinite;
+  filter:
+    drop-shadow(0 0 10px #00ffff)
+    drop-shadow(0 0 20px #ff00aa);
+}
 #scan-code {
   font-size: 24px;
   position: absolute;
