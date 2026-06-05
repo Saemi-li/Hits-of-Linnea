@@ -58,18 +58,18 @@ body {
     0 7.8px 17.9px rgba(0, 0, 0, 0.059), 0 14.6px 33.4px rgba(0, 0, 0, 0.059),
     0 35px 80px rgba(0, 0, 0, 0.07);
   cursor: pointer;
-  height: 100px;
+  height: 140px;
   position: absolute;
-  width: 100px;
+  width: 140px;
 }
 .botón:active .fondo {
   background: #e93c15;
 }
 .icono {
-  height: 200px;
+  height: 240px;
   transform: rotate(-120deg);
   transition: transform 500ms;
-  width: 200px;
+  width: 240px;
 }
 .parte {
   background: white;
@@ -218,10 +218,10 @@ body {
 .puntero {
   border-radius: 50%;
   cursor: pointer;
-  height: 100px;
+  height: 140px;
   position: absolute;
   -webkit-tap-highlight-color: transparent;
-  width: 100px;
+  width: 140px;
 }
 .active .icono {
   transform: rotate(-90deg);
