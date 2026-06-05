@@ -20,6 +20,17 @@ body {
   color: #f4471f;
   text-decoration: none;
 }
+
+/* disco */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .discoball {
   width: 200px;
   height: 200px;
@@ -65,18 +76,18 @@ body {
     0 7.8px 17.9px rgba(0, 0, 0, 0.059), 0 14.6px 33.4px rgba(0, 0, 0, 0.059),
     0 35px 80px rgba(0, 0, 0, 0.07);
   cursor: pointer;
-  height: 140px;
+  height: 100px;
   position: absolute;
-  width: 140px;
+  width: 100px;
 }
 .botón:active .fondo {
   background: #e93c15;
 }
 .icono {
-  height: 240px;
+  height: 200px;
   transform: rotate(-120deg);
   transition: transform 500ms;
-  width: 240px;
+  width: 200px;
 }
 .parte {
   background: white;
@@ -225,10 +236,10 @@ body {
 .puntero {
   border-radius: 50%;
   cursor: pointer;
-  height: 140px;
+  height: 100px;
   position: absolute;
   -webkit-tap-highlight-color: transparent;
-  width: 140px;
+  width: 100px;
 }
 .active .icono {
   transform: rotate(-90deg);
